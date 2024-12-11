@@ -46,6 +46,6 @@ noteSchema.pre('validate', function(next) {
     next();
 })
 
-const noteModel = mongoose.model('notes', noteSchema, 'notes');
+const noteModel = mongoose.model('notepad-db', noteSchema, 'notes');
 
 module.exports = noteModel;
